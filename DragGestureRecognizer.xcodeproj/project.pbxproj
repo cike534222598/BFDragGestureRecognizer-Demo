@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1313942225AEA26800E4F1BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1313942125AEA26800E4F1BF /* AppDelegate.m */; };
+		1313942525AEA26800E4F1BF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1313942425AEA26800E4F1BF /* SceneDelegate.m */; };
+		1313942825AEA26800E4F1BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1313942725AEA26800E4F1BF /* ViewController.m */; };
+		1313942B25AEA26800E4F1BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1313942925AEA26800E4F1BF /* Main.storyboard */; };
+		1313942D25AEA26800E4F1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1313942C25AEA26800E4F1BF /* Assets.xcassets */; };
+		1313943025AEA26800E4F1BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1313942E25AEA26800E4F1BF /* LaunchScreen.storyboard */; };
+		1313943325AEA26800E4F1BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1313943225AEA26800E4F1BF /* main.m */; };
+		1313943D25AEA2CD00E4F1BF /* DragGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1313943C25AEA2CD00E4F1BF /* DragGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1313941D25AEA26800E4F1BF /* DragGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1313942025AEA26800E4F1BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1313942125AEA26800E4F1BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1313942325AEA26800E4F1BF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1313942425AEA26800E4F1BF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1313942625AEA26800E4F1BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1313942725AEA26800E4F1BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1313942A25AEA26800E4F1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1313942C25AEA26800E4F1BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1313942F25AEA26800E4F1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1313943125AEA26800E4F1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1313943225AEA26800E4F1BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1313943B25AEA2CD00E4F1BF /* DragGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragGestureRecognizer.h; sourceTree = "<group>"; };
+		1313943C25AEA2CD00E4F1BF /* DragGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1313941A25AEA26800E4F1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1313941425AEA26800E4F1BF = {
+			isa = PBXGroup;
+			children = (
+				1313941F25AEA26800E4F1BF /* DragGestureRecognizer */,
+				1313941E25AEA26800E4F1BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1313941E25AEA26800E4F1BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1313941D25AEA26800E4F1BF /* DragGestureRecognizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1313941F25AEA26800E4F1BF /* DragGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				1313943A25AEA2CD00E4F1BF /* Libs */,
+				1313942025AEA26800E4F1BF /* AppDelegate.h */,
+				1313942125AEA26800E4F1BF /* AppDelegate.m */,
+				1313942325AEA26800E4F1BF /* SceneDelegate.h */,
+				1313942425AEA26800E4F1BF /* SceneDelegate.m */,
+				1313942625AEA26800E4F1BF /* ViewController.h */,
+				1313942725AEA26800E4F1BF /* ViewController.m */,
+				1313942925AEA26800E4F1BF /* Main.storyboard */,
+				1313942C25AEA26800E4F1BF /* Assets.xcassets */,
+				1313942E25AEA26800E4F1BF /* LaunchScreen.storyboard */,
+				1313943125AEA26800E4F1BF /* Info.plist */,
+				1313943225AEA26800E4F1BF /* main.m */,
+			);
+			path = DragGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		1313943A25AEA2CD00E4F1BF /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				1313943B25AEA2CD00E4F1BF /* DragGestureRecognizer.h */,
+				1313943C25AEA2CD00E4F1BF /* DragGestureRecognizer.m */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1313941C25AEA26800E4F1BF /* DragGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1313943625AEA26800E4F1BF /* Build configuration list for PBXNativeTarget "DragGestureRecognizer" */;
+			buildPhases = (
+				1313941925AEA26800E4F1BF /* Sources */,
+				1313941A25AEA26800E4F1BF /* Frameworks */,
+				1313941B25AEA26800E4F1BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragGestureRecognizer;
+			productName = DragGestureRecognizer;
+			productReference = 1313941D25AEA26800E4F1BF /* DragGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1313941525AEA26800E4F1BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1313941C25AEA26800E4F1BF = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 1313941825AEA26800E4F1BF /* Build configuration list for PBXProject "DragGestureRecognizer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1313941425AEA26800E4F1BF;
+			productRefGroup = 1313941E25AEA26800E4F1BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1313941C25AEA26800E4F1BF /* DragGestureRecognizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1313941B25AEA26800E4F1BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1313943025AEA26800E4F1BF /* LaunchScreen.storyboard in Resources */,
+				1313942D25AEA26800E4F1BF /* Assets.xcassets in Resources */,
+				1313942B25AEA26800E4F1BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1313941925AEA26800E4F1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1313943D25AEA2CD00E4F1BF /* DragGestureRecognizer.m in Sources */,
+				1313942825AEA26800E4F1BF /* ViewController.m in Sources */,
+				1313942225AEA26800E4F1BF /* AppDelegate.m in Sources */,
+				1313943325AEA26800E4F1BF /* main.m in Sources */,
+				1313942525AEA26800E4F1BF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1313942925AEA26800E4F1BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1313942A25AEA26800E4F1BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1313942E25AEA26800E4F1BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1313942F25AEA26800E4F1BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1313943425AEA26800E4F1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1313943525AEA26800E4F1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1313943725AEA26800E4F1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5733X6NCT;
+				INFOPLIST_FILE = DragGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaco..DragGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1313943825AEA26800E4F1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5733X6NCT;
+				INFOPLIST_FILE = DragGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaco..DragGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1313941825AEA26800E4F1BF /* Build configuration list for PBXProject "DragGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1313943425AEA26800E4F1BF /* Debug */,
+				1313943525AEA26800E4F1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1313943625AEA26800E4F1BF /* Build configuration list for PBXNativeTarget "DragGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1313943725AEA26800E4F1BF /* Debug */,
+				1313943825AEA26800E4F1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1313941525AEA26800E4F1BF /* Project object */;
+}
